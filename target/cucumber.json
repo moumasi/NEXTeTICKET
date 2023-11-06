@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 34,
+        "name": "Verify error message is appear when sent without email",
+        "description": "",
+        "id": "this-is-a-information-feature;verify-error-message-is-appear-when-sent-without-email",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11900312500,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Open \u003c\"Url\"\u003e NWEXTeTICKET",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Url",
+                  "offset": 7
+                }
+              ],
+              "location": "next_SubNews.open_NWEXTeTICKET(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 182009300,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Scrolldown page until SUBSCRIBE to NEWSLETTER",
+            "match": {
+              "location": "next_SubNews.scrolldown_page_until_SUBSCRIBE_to_NEWSLETTER()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 759122900,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Leave blank email field and click send button",
+            "match": {
+              "location": "next_SubNews.leave_blank_email_field_and_click_send_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5620905600,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Verify error message is appear when sent without email",
+            "match": {
+              "location": "next_SubNews.verify_error_message_is_appear_when_sent_without_email()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 33,
+            "name": "@tag5"
+          }
+        ]
+      }
+    ],
+    "name": "This is a information feature",
+    "description": "",
+    "id": "this-is-a-information-feature",
+    "keyword": "Feature",
+    "uri": "next_SubNews.feature"
+  }
+]
